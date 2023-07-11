@@ -1,10 +1,10 @@
 tqdm
 numpy
-torch==1.0.1
+torch
 pyyaml==5.4.1
 librosa
 mir_eval
 matplotlib
 tensorboardX
 Pillow
-
+ffmpeg-normalize
