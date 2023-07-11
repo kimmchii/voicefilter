@@ -89,8 +89,9 @@ Unofficial PyTorch implementation of Google AI's:
 
     To replicate VoiceFilter paper, get LibriSpeech dataset at http://www.openslr.org/12/.
     `train-clear-100.tar.gz`(6.3G) contains speech of 252 speakers, and `train-clear-360.tar.gz`(23G) contains 922 speakers.
+    You also need `dev-clean.tar.gz` for test set.
     You may use either, but the more speakers you have in dataset, the more better VoiceFilter will be.
-
+    
 1. Resample & Normalize wav files
 
     First, unzip `tar.gz` file to desired folder:
