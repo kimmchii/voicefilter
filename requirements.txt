@@ -1,9 +1,10 @@
 tqdm
 numpy
 torch==1.0.1
-pyyaml
+pyyaml==5.4.1
 librosa
 mir_eval
 matplotlib
 tensorboardX
 Pillow
+
