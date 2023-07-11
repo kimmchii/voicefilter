@@ -169,6 +169,11 @@ Unofficial PyTorch implementation of Google AI's:
 python inference.py -c [config yaml] -e [path of embedder pt file] --checkpoint_path [path of chkpt pt file] -m [path of mixed wav file] -r [path of reference wav file] -o [output directory]
 ```
 
+## TODO list
+- update docs and guidelines
+- update libraries 
+  1. replace `librosa` with `soundfile` in generator.py
+
 ## Possible improvments
 
 - Try power-law compressed reconstruction error as loss function, instead of MSE. (See [#14](https://github.com/mindslab-ai/voicefilter/issues/14))
