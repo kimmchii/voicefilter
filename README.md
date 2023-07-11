@@ -120,7 +120,9 @@ Unofficial PyTorch implementation of Google AI's:
     ```bash
     python generator.py -c [config yaml] -d [data directory] -o [output directory] -p [processes to run]
     ```
-    This will create 100,000(train) + 1000(test) data. (About 160G)
+    The script will use `train-clean-100`, `train-clean-360`,and `trin-clean-500` (audio files must be in `.wav` format, which is done since you run `./normalize-resample.sh`) for training set        and `dev-clean` for test set.
+
+   This will create 100,000(train) + 1000(test) data. (About 160G)
 
 
 ## Train VoiceFilter
