@@ -173,6 +173,7 @@ python inference.py -c [config yaml] -e [path of embedder pt file] --checkpoint_
 - update docs and guidelines
 - update libraries 
   1. replace `librosa` with `soundfile` in generator.py
+  2. Change pytorch version -> the pytorch must compatible with cuDNN, otherwise it causes error
 
 ## Possible improvments
 
