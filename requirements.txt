@@ -8,3 +8,4 @@ matplotlib
 tensorboardX
 Pillow
 ffmpeg-normalize
+tensorboard
